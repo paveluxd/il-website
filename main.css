@@ -95,28 +95,22 @@ table {
 
     .gallery {
         display: flex;
-        width: 90%;
+        max-width:1280px;
         margin: 0 auto 60px auto;
         flex-wrap: wrap;
         height: auto;
         justify-content: center;
     }
 
-    .gallery img {
-        height:auto;
-        margin:4px;
-        width:160px;
-        align-self: flex-start;
-    }
-
     .gallery div{
-        margin: auto; 
-        background-color: rgba(0, 0, 0, 0.97); 
-        color: white; 
-        border-radius: 50%; 
-        width: 260px;
-        height: 260px;
-        display: flex;
+        margin:4px;
+        height: 400px;
+        max-width:400px;
+        width: 100%;
+        min-width: 300px;
+
+        background-repeat: no-repeat;
+        background-size: cover;
     }
     
  
@@ -182,6 +176,30 @@ table {
         margin: 48px;
     }
 
+    .cover-1{
+        background-image: url("./img/w1.jpg");
+    }
+
+    .cover-2{
+        background-image: url("./img/w2.jpg");
+    }
+
+    .cover-3{
+        background-image: url("./img/w3.jpg");
+    }
+
+    .cover-4{
+        background-image: url("./img/w4.jpg");
+    }
+
+    .cover-5{
+        background-image: url("./img/w5.jpg");
+    }
+
+    .cover-6{
+        background-image: url("./img/w6.jpg");
+    }
+
     header{
         display: flex;
         justify-content: space-between;
@@ -202,7 +220,6 @@ table {
 
     header p{
         border-radius: 3px;
-        /* font-family: 'Merriweather', sans-serif; */
         padding: 12px 16px;
         text-decoration: none;
         margin: auto 0;
@@ -240,7 +257,7 @@ table {
 
         h1 {
             font-size: 24px;
-            line-height: 36px;
+            line-height: 38px;
         }
 
         .cont{
