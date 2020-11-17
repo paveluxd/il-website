@@ -200,6 +200,18 @@ table {
         background-image: url("./img/w6.jpg");
     }
 
+    .cover-7{
+        background-image: url("./img/w7.jpg");
+    }
+
+    .cover-8{
+        background-image: url("./img/w8.jpg");
+    }
+
+    .cover-9{
+        background-image: url("./img/w9.jpg");
+    }
+
     header{
         display: flex;
         justify-content: space-between;
